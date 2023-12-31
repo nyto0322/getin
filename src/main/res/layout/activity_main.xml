@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:src="@drawable/b4"
+ />
+
+
+    <TextView
+        android:id="@+id/text_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_x="28dp"
+        android:layout_y="230dp"
+        android:text="2023年11月28日"
+        android:textColor="#000000"
+
+        android:textSize="41sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:id="@+id/text_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="100dp"
+        android:layout_x="37dp"
+        android:layout_y="287dp"
+
+
+        android:text="15:20:"
+        android:textColor="#000000"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_x="220dp"
+        android:layout_y="287dp"
+        android:text="29."
+        android:textColor="#0000FF"
+
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_x="311dp"
+        android:layout_y="287dp"
+        android:text="7"
+        android:textColor="#FF0000"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <!--    <TextClock-->
+<!--        android:id="@+id/timeText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:format12Hour="hh:mm"-->
+<!--        android:format24Hour="HH:mm:ss"-->
+
+<!--        android:textColor="#FF0000"-->
+<!--        android:textSize="40sp"-->
+<!--        android:textStyle="bold"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="120dp"-->
+<!--        tools:layout_editor_absoluteY="437dp" />-->
+
+<!--    <TextClock-->
+<!--        android:id="@+id/dateText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:format12Hour="yyyy/MM/dd E"-->
+<!--        android:format24Hour="yyyy年MM月dd日"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="40sp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="120dp" />-->
+
+
+
+
+</AbsoluteLayout>
