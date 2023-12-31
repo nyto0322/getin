@@ -47,15 +47,15 @@ public class MainActivity extends AppCompatActivity {
                 update1();
                 handler1.postDelayed(this, 1000); // 1 秒钟后再次执行
             }
-        }, 100); // 1 秒钟后第一次执行
+        }, 100); // 0.1 秒钟后第一次执行
 
         handler2.postDelayed(new Runnable() {
         @Override
         public void run() {
             update2();
-            handler1.postDelayed(this, 100); // 1 秒钟后再次执行
+            handler1.postDelayed(this, 100); // 0.1 秒钟后再次执行
         }
-    }, 100); // 1 秒钟后第一次执行
+    }, 100); // 0.1 秒钟后第一次执行
 
 
         Window window = this.getWindow();
